@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_19_133830) do
+ActiveRecord::Schema[7.0].define(version: 2023_10_19_174537) do
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
     t.text "body"
@@ -38,6 +38,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_19_133830) do
     t.integer "breed_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "number_of_legs"
     t.index ["breed_id"], name: "index_horses_on_breed_id"
   end
 
