@@ -31,7 +31,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'
-#gem 'activeadmin', '2.12'
+gem 'activeadmin', '2.11'
 #gem 'devise'
 
 
