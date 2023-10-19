@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  ActiveAdmin.routes(self)
+
 
   resources :breeds, only: %i[index show]
   resources :horses, only: :show do
